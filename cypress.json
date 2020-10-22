@@ -1,0 +1,9 @@
+{
+  "nodeVersion": "system",
+  "fixturesFolder": false,
+  "integrationFolder": "cypress/test",
+  "pluginsFile": false,
+  "screenshotOnRunFailure": false,
+  "supportFile": false,
+  "video": false
+}

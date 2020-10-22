@@ -1,0 +1,7 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "compilerOptions": {
+    "removeComments": true,
+  },
+  "include": ["src/**/*", "test/**/*"]
+}
