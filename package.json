@@ -6,8 +6,11 @@
   "author": "Kenny Smith <mail@kjs3.com>",
   "license": "MIT",
   "private": false,
+  "files": [
+    "lib/**/*"
+  ],
   "type": "module",
-  "main": "lib/index.js",
+  "main": "lib/cjs/index.js",
   "exports": {
     ".": {
       "require": "./lib/cjs/index.js",
@@ -16,6 +19,9 @@
   },
   "module": "lib/esm/index.js",
   "types": "lib/esm/index.d.ts",
+  "engines": {
+    "node": ">=8"
+  },
   "scripts": {
     "build": "run-p build:cjs build:esm",
     "build:cjs": "tsc --project tsconfig.cjs.json",
