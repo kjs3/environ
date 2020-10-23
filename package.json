@@ -6,6 +6,22 @@
     "type": "git",
     "url": "https://github.com/kjs3/environ.git"
   },
+  "bugs": {
+    "url": "https://github.com/kjs3/environ/issues"
+  },
+  "keywords": [
+    "js env",
+    "js environment",
+    "browser",
+    "browser check",
+    "node",
+    "node check",
+    "is node",
+    "is browser",
+    "is electron",
+    "is deno",
+    "is jsdom"
+  ],
   "author": "Kenny Smith <mail@kjs3.com>",
   "license": "MIT",
   "private": false,
