@@ -1,6 +1,6 @@
 {
   "name": "environ",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Pretty secure detection of Node, browser, Electron, Deno, and other execution environments.",
   "repository": {
     "type": "git",
